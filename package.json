@@ -4,7 +4,7 @@
   "description": ":money-with-wings:  A token for rewarding great work",
   "main": "index.js",
   "scripts": {
-	"compile": "npx hardhat compile",
+    "compile": "npx hardhat compile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
