@@ -26,7 +26,7 @@ npm install
 
 * Sign up with your preferred vendor and fill:
   - `rpc`: https URI.
-	- `phrase`: owner's 12 word mnemonic. This account will be marked as the "owner" of the account.
+  - `phrase`: owner's 12 word mnemonic. This account will be marked as the "owner" of the account.
 
 ## WARNING(s)
 
