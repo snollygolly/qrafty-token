@@ -1,0 +1,22 @@
+{
+	"local": {
+		"phrase": "a b c d e f g h i j k l",
+		"rpc": "http://127.0.0.1:7545"
+	},
+	"ethtestnet": {
+		"phrase": "a b c d e f g h i j k l",
+		"rpc": "https://ropsten.infura.io/v3/KEY"
+	},
+	"ethmainnet": {
+		"phrase": "a b c d e f g h i j k l",
+		"rpc": "https://mainnet.infura.io/v3/KEY"
+	},
+	"bsctestnet": {
+		"phrase": "a b c d e f g h i j k l",
+		"rpc": "https://apis.ankr.com/KEY/binance/full/test"
+	},
+	"bscmainnet": {
+		"phrase": "a b c d e f g h i j k l",
+		"rpc": "https://apis.ankr.com/KEY/binance/full/main"
+	}
+}

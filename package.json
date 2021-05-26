@@ -1,0 +1,27 @@
+{
+  "name": "qrafty-token",
+  "version": "1.0.0",
+  "description": ":money-with-wings:  A token for rewarding great work",
+  "main": "index.js",
+  "scripts": {
+	"compile": "npx hardhat compile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snollygolly/qrafty-token.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snollygolly/qrafty-token/issues"
+  },
+  "homepage": "https://github.com/snollygolly/qrafty-token#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "ethereum-waffle": "^3.3.0",
+    "ethers": "^5.1.4",
+    "hardhat": "^2.3.0"
+  }
+}
