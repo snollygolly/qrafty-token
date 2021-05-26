@@ -63,5 +63,5 @@ npx hardhat node
 To run the tests:
 
 ````
-npx hardhat test
+npm test
 ````
