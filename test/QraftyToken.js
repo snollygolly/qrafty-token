@@ -45,10 +45,9 @@ describe("Token contract", function () {
       const initialOwnerBalance = await hardhatToken.balanceOf(owner.address);
 
       // Try to send 1 token from addr1 (0 tokens) to owner (1000 tokens).
-      // `require` will evaluate false and revert the transaction.
-			//
-			// TODO(jfatta): use to.be.revertedWith("{reason here") 
-			// if the contract is updated to provide a reason at `require()`
+      // `require` will evaluate false and revert the transaction
+      // TODO(jfatta): use to.be.revertedWith("{reason here"),
+      // once/if the contract is updated to provide a reason at `require()`
       await expect(
         hardhatToken.connect(addr1).transfer(owner.address, 1)
       ).to.be.reverted;
