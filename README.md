@@ -47,13 +47,13 @@ npx hardhat compile
 ```
 npx hardhat run scripts/deploy.js --network ganache
 ```
-expect an output similar to:
+   expect an output similar to:
 
-```
-Deploying contracts with the account: 0x...
-Account balance: ...
-Token address: 0x........
-```
+  ```
+  Deploying contracts with the account: 0x...
+  Account balance: ...
+  Token address: 0x........
+  ```
 
 - To deploy on a different network, replace ganache with one of the following:
 
