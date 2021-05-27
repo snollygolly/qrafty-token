@@ -57,3 +57,11 @@ npx hardhat run scripts/deploy.js --network ganache
 ```
 npx hardhat node
 ```
+
+##### Unit Tests
+
+To run the tests:
+
+````
+npm test
+````
