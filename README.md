@@ -18,17 +18,20 @@ git clone https://github.com/snollygolly/qrafty-token.git
 npm install
 ```
 
+#### Config
+
 * Create your config.json file. There is a `config.example.json` provided in the format you need. 
 
-* Sign up with your preferred vendor and input the https value in "rpc"
+* The config file should exist for the local development and deploy steps to work properly. You can configure `local`, `ethtestnet`/`ethmainnet`, `bsctestnet`/`bscmainnet`
 
-* Enter the owner's 12 word mnemonic. This account will be marked as the "owner" of the account.
+* Sign up with your preferred vendor and fill:
+  - `rpc`: https URI.
+  - `phrase`: owner's 12 word mnemonic. This account will be marked as the "owner" of the account.
 
 ## WARNING(s)
 
-*MAKE SURE YOU DON'T LOSE YOUR MNEMONIC AND DON'T SEND IT TO ANYONE EVER*
-
-*DO NOT PUT YOUR REAL WALLET MNEMONIC IN THE EXAMPLE CONFIG, PUT IT IN YOUR CONFIG.JSON*
+- **MAKE SURE YOU DON'T LOSE YOUR MNEMONIC AND DON'T SEND IT TO ANYONE EVER**
+- **DO NOT PUT YOUR REAL WALLET MNEMONIC IN THE EXAMPLE CONFIG, PUT IT IN YOUR CONFIG.JSON**
 
 
 ### Smart Contract
@@ -44,6 +47,13 @@ npx hardhat compile
 ```
 npx hardhat run scripts/deploy.js --network ganache
 ```
+   expect an output similar to:
+
+  ```
+  Deploying contracts with the account: 0x...
+  Account balance: ...
+  Token address: 0x........
+  ```
 
 - To deploy on a different network, replace ganache with one of the following:
 
